@@ -2,174 +2,482 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagar Khandade - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
+    <title>Welcome!</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-        header {
-            background: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2em;
-        }
-
-        .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        section {
-            margin: 20px 0;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #4CAF50;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin: 10px 0;
-        }
-
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-
-        footer a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        .contact-details {
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
 
-<header>
-    <h1>Sagar Khandade</h1>
-    <p>Data Analyst | Data Scientist | Cloud Analyst</p>
-</header>
+  <div class="nav-header">
+    <div class="header-links">
+      <ul class="headerholder">
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+          <li data-menuanchor="thirdPage"><a href="#research">RESEARCH</a></li>
+          <li data-menuanchor="thirdPage"><a href="#certification">CERTIFICATIONS</a></li>
+          <li data-menuanchor="thirdPage"><a href="#education">EDUCATION</a></li>
+        <li data-menuanchor="thirdPage"><a href="#projects">PROJECTS</a></li>
+          <li data-menuanchor="secondPage"><a href="#skills">SKILLS</a></li>
+        <li data-menuanchor="secondPage"><a href="#experience">EXPERIENCE</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
 
-<div class="container">
-    <section id="contact">
-        <h2>Contact</h2>
-        <p><strong>Phone:</strong> (240) 854-3673</p>
-        <p><strong>Email:</strong> <a href="mailto:sagarkhandade1997@gmail.com">sagarkhandade1997@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a></p>
+
+<div class="bg">
+    <section id="about" class="aboutContent">
+
+        <div class="aboutme" data-anchor="aboutme">
+            <div class="opaque-bg animated fadeInDown">
+              <p style="color:#FF6363">Hi there, I'm</p>
+              <h1 style="color:white">Manas<span style="color:#FF6363"> M </span>Bhat</h1>
+              <div class="allelementsInabout">
+              <div class="elementsInabout">
+              <p class="emoji">
+                &#127891;
+                </p>
+                <p class="text">
+                 Masters in Information Systems at the University of Maryland.<br></p>
+                </div>
+                <div class="elementsInabout">
+                 <p class="emoji">
+                  &#128640;
+                  </p>
+                  <p class="text">
+                    Data Analyst at Kaseya<br></p>
+                 
+                  </div>
+                  </div>
+              <a id="submit" class="btn btn-lg" href="https://topmate.io/manasmb/" target="_blank">Contact me</a>
+            </div>
+        </div>
     </section>
 
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Experienced Senior Data Analyst with a strong background in data analytics, machine learning, and process optimization. Expertise in SQL, Python, and AWS, with a proven track record of enhancing business efficiency and decision-making through data-driven insights.</p>
-    </section>
+    <hr class="line">
 
     <section id="experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <strong>Cloud Analyst | Sun Sirius Technologies</strong> (Aug 2024 - Present)<br>
-                Designed data pipelines in Python, integrating data from CloudWatch logs to OpenSearch using AWS Lambda for real-time analytics. Utilized SQL to extract insights from RDS databases & prepared data visualizations in QuickSight to support report generation.
-            </li>
-            <li>
-                <strong>Data Analyst | CrowdDoing</strong> (Feb 2024 - Present)<br>
-                Designed database schemas using ER models to organize incoming application and Google Forms data from Excel sheets efficiently. Analyzed data in S3 buckets, processed it using AWS Glue & Spark, identifying trends and insights to support event analysis.
-            </li>
-            <li>
-                <strong>Graduate Assistant | University of Maryland, College Park</strong> (Aug 2022 - Dec 2023)<br>
-                Processed student activity data from multiple Excel sheets into dataframes & created a Python script to automate grading. Analyzed & presented insights on student performance, contributing to data-driven decision-making in academic operations.
-            </li>
-            <li>
-                <strong>Quantitative Analytics Intern | Freddie Mac</strong> (Aug 2023 - Dec 2023)<br>
-                Built SARIMAX model in Python to forecast the housing price index, boosting accuracy by 20% through hyperparameter tuning. Presented insights to stakeholders, aiding in budget allocation decisions and aligning investment strategies with business goals.
-            </li>
-            <li>
-                <strong>Senior Data Analyst | Citi</strong> (Aug 2019 - May 2022)<br>
-                Leveraged PySpark & SQL to design ETL workflows for intraday jobs by analyzing business requirements & data structures. Collaborated with stakeholders to define KPIs, set performance metrics, & ensure timely deliveries within agile scrum environments.
-            </li>
-        </ul>
+        <div class="experience" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">What do I do?</p>
+             </div>
+
+                        <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/kaseya-logo.webp" alt="">
+                </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Kaseya<p class="location">Miami, FL, United States</p></h3>
+
+                     <p class="positionText">Data Analyst</p><p class="date">October 2024 - Present</p>
+                     <p class="JobDesc">
+                      Steamlining data collection from various sources such as Netsuite, Salesforce and other systems to create automated and easy-tp-use routines.</p>
+                      <p class="JobDesc">
+                      Analyzing collected data and inerpreting trends and patterns as they relate to billing and forecasting</p>
+                     <p class="JobDesc">
+                      Preparing reports for organizational leadership to use in a business setting</p>
+                     <p class="JobDesc">
+                      Creating data visualization and dashboards to communicate insights and recommendations</p>
+                 </div>
+            </div>
+
+            <hr class="blueline">
+
+            <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/rhsmithlogo.jpg" alt="">
+                </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Robert H. Smith School of Business <p class="location">College Park, MD, United States</p></h3>
+
+                     <p class="positionText">Teaching Assistant</p><p class="date">January 2023 - December 2024</p>
+<p class="JobDesc">
+                      Revamped undergraduate and graduate-level courses on web development (using Flask), data analysis in Python and database management systems, enhancing learning outcomes through updated course materials, hands-on exercises, and real-world applications.</p>
+                     <p class="JobDesc">
+                      Mentored over 400 students, offering guidance on academic challenges, career development, and project execution. </p>
+                     <p class="JobDesc">
+                      Created and implemented customized Entity-Relationship Diagrams (ERDs), database tables, and information systems prototypes to provide students with a more personalized, interactive, and practical learning experience, enabling them to better grasp complex concepts.</p>
+                     <p class="JobDesc">
+                      Conducted rigorous evaluation of student projects, providing insightful, actionable feedback that helped students enhance their technical skills and knowledge. </p>
+                     <p class="JobDesc">
+                      Mentored over 400 students, offering guidance on academic challenges, career development, and project execution. </p>
+<!--                       <p class="JobDescpt">
+                        &#128205;I play a crucial role in performing feasibility analyses, critically evaluating information systems configurations, and implementing project management methodologies for industry projects.</p>
+                      <p class="JobDescpt">
+                        &#128205;Instrumental in developing computer programs that harness the power of sequence, selection, and repetition control structures to automate data analysis. Additionally, I help leverage pre-built Python code packages to efficiently manipulate, manage, and process data.</p>
+                      <p class="JobDescpt">
+                        &#128205;Unwavering commitment to student success: By meticulously evaluating student assignments, offering constructive feedback, and promoting best practices, I aim to empower students for excellence.</p>
+                      <p class="JobDescpt">
+                        &#128205;Not stop at theory; I guide students in applying their skills to real-world scenarios, ensuring they were well-prepared for practical challenges in the fields of web development and data analysis.</p>
+                      <p class="JobDescpt">
+                        &#128205;Transform complex concepts into easily understandable explanations, fostering an environment of collaborative learning.</p>
+                      <p class="JobDescpt">
+                        &#128205;Through rigorous project evaluation, I ensure that students not only received fair assessments but also gained valuable insights for continuous improvement.</p>
+<br>
+                     <p class="positionText">Research Assistant</p><p class="date">May 2023 - Present</p>
+                     <p class="JobDesc">
+                      &#128205;Delving deep into the world of research, I thrive on pushing boundaries and utilizing cutting-edge techniques.</p>
+                        <p class="JobDescpt">
+
+                          &#128205;I harness the power of Natural Language Processing (NLP) with HuggingFace's zero-shot classification to dissect the impact of AI initiatives.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Collaborating seamlessly with a team of fellow researchers, we tackle challenges head-on to uncover insights that matter.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;I fearlessly wade through extensive datasets, analyzing over 5000 rows of classified data, making order out of complexity.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Armed with data and determination, I embark on a journey to uncover hidden gems of information, providing a fresh perspective on AI adoption in federal agencies.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Transforming raw data into eye-catching Tableau visualizations, I bring data to life, making it accessible and engaging for all.<br></p>
+                        <p class="JobDescpt">
+                          &#128205;Amidst the fun of research, I discover solutions to real-world challenges, revealing the true impact of AI initiatives in federal agencies.<br></p>
+                        <p class="JobDescpt">
+                        &#128205;Research often pose complex challenges, but I embrace them as opportunities for growth and innovation, never shying away from the unknown.</p>
+                     </p> -->
+                 </div>
+            </div>
+
+            <hr class="blueline">
+
+           
+
+             <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/accLogo.png" alt="">
+                </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Accenture <p class="location">Bengaluru, India</p></h3>
+                     <p class="positionText">Data Analyst</p> <p class="date">November 2018 - July 2022</p>
+                     <p class="JobDesc">
+                      Partnered with the Fraud Management team to identify and mitigate claims abuse by analyzing behavior insights, and to automate compliance reports. </p>
+                     <p class="JobDesc">
+                     Analyzed financial performance of banking products to pinpoint underperforming products and cut costs.</p>
+                        <p class="JobDesc">
+                     Involved in all stages of Machine Learning model development to predict Non performing Assets.</p>
+                        <p class="JobDesc">
+                      Created data-driven solutions to provide customized insights on customers, enhancing customer experience. </p>
+                     <p class="JobDesc">
+                      Leveraged data-driven insights, assessing KPIs and influencing decision-making processes across cross-functional teams to launch new
+products. </p>
+                     
+<!--                      <p class="JobDesc">
+                      Data Maestro 📊: Specializing in crafting complex SQL reports, I generated data-driven recommendations, reducing revenue leakage by $3.2 million through meticulous data analysis.</p>
+                      <p class="JobDescpt">
+                      Python Pathfinder 🐍: With Python, I've created applications for analyzing spending patterns among 12 million customers, enabling data-driven insights.</p>
+                      <p class="JobDescpt">
+                      Visual Storyteller 📈: I designed dynamic Tableau dashboards, collaborating to boost marketing efficiency by 28% through real-time data visualization.</p>
+                      <p class="JobDescpt">
+                      Metrics Leader 🚀: Overseeing financial metrics and global product launches, I delivered data-driven insights and drive strategic decision-making.</p>
+                      <p class="JobDescpt">
+                      Innovative Mindset 💡: I innovate with interactive dashboards, earning the 'ACE award,' and imparting knowledge for growth.</p>
+                      <p class="JobDescpt">
+                      Quick Learning Champion 🌱: I swiftly grasp new concepts, excel in data cleaning, analysis, and collaborative projects, staying ahead in the evolving data landscape.</p>
+                      <p class="JobDescpt">
+                      Versatility & Team Spirit 🤝: Adapting roles seamlessly, I navigate diverse projects with expertise in data analytics techniques and their practical applications.</p>
+                      <p class="JobDescpt">
+                      Client-Centric Dynamo 👥: I build strong client relationships, consistently delivering beyond project requirements to foster lasting partnerships.
+                     </p> -->
+                 </div>
+            </div>
+
+            <hr class="blueline">
+
+            <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/maubanklogo.jpg" alt="">
+                </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">MauBank<p class="location">Ebene, Mauritius</p></h3>
+                     <p class="positionText">IT Applications Intern</p> <p class="date">August 2018 - September 2022</p>
+                     <p class="JobDesc">
+                      📈 Utilized Python's power while collaborating with financial and technical subject matter experts (SMEs) to analyze and visualize complex data, 
+                      identifying lucrative opportunities that drive business growth. </p>
+              
+<!--                       <p class="JobDescpt">
+                      🧠 Armed with the mighty Random Forest algorithm, built a machine learning model that could forecast the possibility of loans turning into Non-Performing Assets (NPAs) 
+                      with an astonishing accuracy rate of 92%, embracing the challenges of this ever-evolving field, pushing boundaries and conquering complexities.</p>
+                     </p> -->
+                 </div>
+            </div>
+
+
+
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Project Experience</h2>
-        <ul>
-            <li>
-                <strong>Student Performance Prediction System</strong> (Aug 2022 – Dec 2022)<br>
-                Developed a grade prediction model using Random Forest, achieving an RMSE of 2.3 through hyperparameter tuning. Implemented a career prediction model with XGBoost, classifying career paths based on students' performance metrics & skills.
-            </li>
-        </ul>
-    </section>
+    <hr class="line">
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> SQL, Python, R, Shell, C++</li>
-            <li><strong>Machine Learning & Statistics:</strong> Clustering, Regression, Time Series Forecasting, NLP</li>
-            <li><strong>Platforms:</strong> AWS (Sagemaker, Glue, Athena, EC2, S3), Azure</li>
-            <li><strong>Tools:</strong> Tableau, JIRA, Bitbucket, MySQL, Google Colab</li>
-        </ul>
+        <div class="skills" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">My Skills</p>
+             </div>
+
+            <h3 class="sectionSubHeadings">Languages:</h3>
+
+            <i class="devicon-c-plain icon"></i>
+            <i class="devicon-java-plain-wordmark icon"></i>
+            <i class="icon devicon-python-plain-wordmark" ></i>
+            <i class="icon devicon-r-original" ></i>
+            <i class="icon devicon-css3-plain-wordmark" ></i>
+            <i class="icon devicon-html5-plain-wordmark" ></i>
+            <i class="icon devicon-javascript-plain" ></i>
+
+            <h3 class="sectionSubHeadings">Tools:</h3>
+
+            <i class="icon devicon-rstudio-plain"></i>
+            <i class="icon devicon-androidstudio-plain"></i>
+            <i class="icon devicon-microsoftsqlserver-plain-wordmark" ></i>
+            <i class="icon devicon-pycharm-plain-wordmark" ></i>
+            <i class="icon devicon-firebase-plain" ></i>
+            <i class="icon devicon-github-original-wordmark" ></i>
+            <i class="icon devicon-jupyter-plain-wordmark" ></i>
+
+            <h3 class="sectionSubHeadings">Frameworks:</h3>
+
+            <i class="devicon-numpy-original-wordmark icon"></i>
+            <i class="devicon-pandas-original-wordmark icon"></i>
+            <i class="icon devicon-flask-plain-wordmark" ></i>
+            <i class="icon devicon-flask-bootstrap-plain" ></i>
+
+
+        </div>
     </section>
+
+    <hr class="line">
+
+    <section id="projects">
+        <div class="projects" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">Projects</p>
+             </div>
+
+            <div class="skill-row">
+
+              <h3 class="skilltitle">Exploratory and Predictive Analysis: AirBnb</h3>
+          
+
+              <p class="JobDescpt"> 🔍 
+              Embarking on this journey required commanding tools such as R, honing skills in data cleansing, preprocessing, and conducting meticulous exploratory analysis. Within the dataset's labyrinthine intricacies—spanning 100,000 listings and encompassing 58 intricate feature variables—lay concealed insights and invaluable knowledge. This was no ordinary cleanup; it was a technical triumph. 🧹</p>
+              
+              <p class="JobDescpt"> 🤖 
+              The heart of this expedition lay in the realm of predictive modeling. Through the meticulous application of regression, Random Forest, Neural Networks, Support Vector Machines, and XGBoost, an arsenal of sophisticated models emerged. These models embarked on a mission to predict the unpredictable, employing advanced algorithms to unravel the dataset's complexities. 🤯</p>
+              
+              <p class="JobDescpt"> 🚀 
+              The journey encountered its share of challenges—each parameter adjustment in the pursuit of model optimization was a strategic move in a cerebral chess game. Yet, persistence, a knack for experimentation, and a touch of wizardry resulted in a remarkable achievement. Securing 3rd place with an astounding accuracy rate of 77% was an affirmation of technical prowess and dedication. 🏆</p>
+              
+              <p class="JobDescpt">  🌟 This exploration through data mining and prediction is a testament to unwavering commitment, a deep-seated passion for technical excellence, and the unyielding quest to unveil the hidden gems within Airbnb's data vault. Join us in this riveting journey through data, discovery, and technical mastery by accessing the report below! 🌟</p>
+              
+              
+              </p>
+              <p>
+                Read the report here: <em><a href="Project_Report.pdf">Tap here</a></em>
+              </p>    
+          <p>
+            Link to the project: <em><a href="https://github.com/parika-rawat/Airbnb-Data-Prediction">Tap here</a></em>
+          </p>
+          
+          <hr class="redline">
+
+          <h3 class="skilltitle">Maryland Traffic Violation Analysis</h3>
+
+          <p class="JobDescpt">
+            📊 Data-Driven Decision-Making: Proficient in Python, we dissect intricate datasets, surmounting complexities to extract invaluable insights that drive well-informed decisions. Analyzed traffic violations in Maryland, spanning 2012 to 2018, with over 1.8 million violations, sourced from Kaggle, using Python libraries like numpy, pandas, and matplotlib.</p>
+
+            <p class="JobDescpt">  🗺️ Geospatial Analysis: Harnessing Python's Folium library, we tackle the challenge of translating raw coordinates into dynamic, interactive maps, revealing precise geographic traffic patterns.</p>
+            
+              <p class="JobDescpt">  📈 Interactive Data Visualization: With Python's data visualization libraries, we conquer complex data sets, creating visually captivating plots and charts that demystify intricate information.</p>
+            
+                <p class="JobDescpt">  🧠 Machine Learning Expertise: Our pioneering Python-powered predictive models shine with an astounding 97.4% accuracy. We've navigated the challenges of developing these models to predict high-risk scenarios and accidents.</p>
+            
+                  <p class="JobDescpt">  🔍 Data Cleaning and Transformation: Armed with Python's Pandas and NumPy, we've deftly handled the complexities of data cleaning and preprocessing, ensuring unwavering accuracy and reliability.</p>
+            
+                    <p class="JobDescpt">  📚 Statistical Analysis: We've applied advanced statistical techniques to unravel concealed patterns and trends within data. This meticulous analysis enables data-driven, evidence-based decision-making.</p>
+            
+                      <p class="JobDescpt">  🚀 Innovative Problem-Solving: Each data challenge is a puzzle we're eager to solve. We've harnessed Python's multifaceted capabilities to craft ingenious solutions to intricate problems.</p>
+            
+                        <p class="JobDescpt">  💼 Impactful Reporting: Beyond raw numbers, we've presented our comprehensive findings through visually stunning reports and visualizations. These reports effectively communicate insights to police departments and local authorities, promoting safer roads and informed actions.</p>
+          <hr class="redline">
+          <h3 class="skilltitle">The Mechanical App</h3>
+          
+
+          <p class="JobDescpt">              📱 Advanced Android Development: Spearheaded the creation of a Java-based Android application with a focus on optimizing performance and user experience. The project was tailored to cater specifically to Mechanical Engineering students, ensuring a seamless and efficient interface. 🚀</p>
+
+            <p class="JobDescpt">    🌍 Global User Reach: Achieved widespread adoption of the application, transcending geographical boundaries to cater to Mechanical Engineering students at universities around the world. The app has garnered an impressive user base, with over 10,000 downloads and counting. 🌐</p>
+            
+              <p class="JobDescpt">    🔄 Iterative Feature Enhancement: The application began with a fundamental timetable feature, subsequently evolving through iterative development cycles. Collaboration with subject matter experts, including lecturers, facilitated the addition of advanced functionalities. Notably, the app expanded to encompass a comprehensive repository of lecture notes and critical study materials, serving as a holistic academic resource. 📚</p>
+            
+                <p class="JobDescpt">   🎮 Strategic Gaming Integration: Entered into a strategic partnership with Gamezop, a prominent Indian gaming company, to seamlessly incorporate an extensive library of 350+ games within the app. This integration elevated the app's engagement levels, transforming it into a multifaceted platform for both learning and leisure. 🕹️</p>
+            
+                  <p class="JobDescpt">    🔥 Firebase-Powered Dynamics: The app seamlessly integrated Firebase, a powerful cloud service, to bolster its technical infrastructure. Firebase served as the backbone for real-time notifications, delivering timely updates to users. Additionally, it fortified the application's authentication mechanisms, ensuring data security. Firebase also functioned as a dynamic database, facilitating efficient data storage and retrieval, which proved vital in scaling the application. 📡</p>
+              
+              
+              
+              
+              </p>
+          <p>
+            Link to the app: <em><a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.timetable3&hl=en_IN&gl=US">Tap here</a></em>
+          </p>
+          <hr class="redline">
+          <h3 class="skilltitle">RunOut-The cricket hangman game</h3>
+          <p>A lite fun android game based on the classic hangman concept.</p>
+          <p>
+            Link to the app: <em><a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.hangmancricket&hl=en_IN&gl=US">Tap here</a></em>
+          </p>
+          <hr class="redline">
+          <h3 class="skilltitle">Mauritius</h3>
+          <p>An app that lets you explore all the tourist attractions of Mauritius, and helps you decide where you want to go without any hassles.</p>
+          <p>
+            Link to the app: <em><a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.mauritius&hl=en_IN&gl=US">Tap here</a></em>
+          </p>
+          <hr class="redline">
+          <h3 class="skilltitle">Maaya</h3>
+          <p>Official Android app of "Maaya"-the annual intercollegiate techno-cultural festival hosted by PES Institute of Technology, Bangalore South Campus. Includes in-app quizzes.</p>
+          <p>
+            Link to the app: <em><a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.maaya&hl=en_IN&gl=US">Tap here</a></em>
+          </p>
+          <hr class="redline">
+          <h3 class="skilltitle">IPL Score Prediction</h3>
+          <p>Developed a machine-learning based model using Python to predict first inning score for the IPL. Using linear regression algorithm enabled the model to predict the score accurately. This project was used for a contest hosted by a local
+            pizzeria in Bengaluru.</p>
+          <hr class="redline">
+          <h3 class="skilltitle">Pick and place robot</h3>
+          <p>Programmed and fabricated a pick and place robot with Arduino Microcontroller using acrylic material to achieve greater strength-to-weight ratio.</p>
+
+        </div>
+
+        </div>
+    </section>
+
+    <hr class="line">
 
     <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>Master of Science in Business Analytics</strong> | University of Maryland, College Park (Aug 2022 - Dec 2023)<br>
-                GPA: 3.6 | Coursework: Data Processing in Python, Predictive Analytics
-            </li>
-            <li>
-                <strong>B.Tech in Electronics & Telecommunications Engineering</strong> | University of Pune (Aug 2015 - May 2019)<br>
-                GPA: 3.5
-            </li>
-        </ul>
+        <div class="education" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">Education</p>
+             </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img class='cardlogo' src="images/umdlogo.png" alt="Avatar" style="width:100%">
+
+                        <h4><b>University of Maryland</b></h4>
+                        <p class="placeYear">College Park, MD, US    |    2022-Present</p>
+                        <p class="degree">Master of Science</p>
+                        <p class="subject"><b>Information Systems</b></p>
+                        <p>GPA: 3.88/4.0</p>
+
+                </div>
+
+                <div class="card">
+                    <img class='cardlogo' src="images/pesLogo.png" alt="Avatar" style="width:100%">
+
+                        <h4><b>PES University</b></h4>
+                        <p class="placeYear">Bengaluru, India    |    2014-2018</p>
+                        <p class="degree">Bachelor of Engineering</p>
+                        <p class="subject"><b>Mechanical Engineering</b></p>
+                        <p>GPA: 3.7/4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="line">
+    <section id="certification">
+        <div class="certification" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">Certifications</p>
+             </div>
+
+            <div >
+                <img src="images/certificates.png" class="cert_image">
+            </div>
+        </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>AWS Solutions Architect Associate</li>
-            <li>Google Data Analytics Professional Certificate</li>
-        </ul>
+        <hr class="line">
+
+    <section id="research">
+        <div class="research" data-anchor="projects">
+             <div>
+                <p class="sectionTitles">Research</p>
+             </div>
+             <a class="papertitle" href="https://www.ijsr.net/conf/RISE2017/IJSR36.pdf">Hydraulic Regenerative Braking System</a>
+             <p class="pubname">International Journal of Science and Research (IJSR) · May 1, 2017</p>
+             <p class="paperdesc">This project aims to create an improved model of a hydraulic regenerative braking system for vehicles. The system utilizes a reversible hydraulic unit that acts as a pump and motor as needed, converting mechanical energy to hydraulic energy during braking and vice versa during acceleration, thus recovering wasted energy. The use of this system leads to reduced power consumption and improved vehicle performance, a crucial solution in today's market with rising fuel prices and increasing environmental concerns.</p>
+                <hr class="smallline">
+
+            <a class="papertitle" href="https://www.technoarete.org/common_abstract/pdf/IJEREEE/v2/i10/21.pdf">Geothermal Energy in Secondary Pressure Drainers (A concept)</a>
+             <p class="pubname">International Journal of Engineering Research in Electrical and Electronic Engineering(IJEREEE) · Oct 1, 2016</p>
+             <p class="paperdesc">The paper discusses the design and implementation of a secondary pressure drainer for a geothermal power plant. The system uses geothermal energy from the earth's crust to convert cold water into high-pressure steam. The high-temperature steam is combined with low-pressure steam to produce medium-pressure steam that is used as the motive fluid. The design uses renewable sources of energy, providing a sustainable and reliable solution for electricity generation.
+</p>
+                <hr class="smallline">
+
+            <a class="papertitle" href="https://www.ijsr.net/conf/RISE2016/PES3.pdf">
+Economical and Effective Method for Design and Fabrication of Pick and Place Robot</a>
+             <p class="pubname">International Journal of Science and Research (IJSR) · Apr 30, 2016</p>
+             <p class="paperdesc">This project proposes an economical and effective design for a pick and place robot. The robot consists of components such as a base box, mechanical arms, servo motors, and an arduino microcontroller. The structure is built using acrylic sheets for light weight and stability. The gripper is equipped with a pressure sensor to prevent dropping and breaking, and the movement is powered by servo motors. The advantage of this design is its economical cost, light weight, portability, and repeatability.</p>
+                <hr class="smallline">
+
+            <a class="papertitle" href="http://www.ijirset.com/upload/2015/november/93_GowthamIFER.pdf">
+Elimination of brake fade in vehicles by altering the brake disc size(A Concept) </a>
+             <p class="pubname">International Journal of Innovative Research in Science, Engineering and Technology · Nov 1, 2015</p>
+             <p class="paperdesc">The paper focuses on the issue of brake fade, a reduction in stopping power caused by repeated or sustained application of brakes, and its consequences in high load or high speed conditions. To eliminate brake fade, it is necessary to keep the maximum temperature below the fade stop temperature. The paper analyzes the variables affecting the fade stop temperature and concludes that by minimizing the volume of the disc, the fade stop temperature is higher than the maximum temperature, thus making brake fade theoretically impossible. </p>
+                <hr class="smallline">
+
+            <a class="papertitle" href="http://www.ijirset.com/upload/2015/october/121_gautham%20research%20paper.pdf">Smart Security Systems</a>
+             <p class="pubname">International Journal of Innovative Research in Science, Engineering and Technology · Oct 1, 2015</p>
+             <p class="paperdesc">A security system that involves the use of a disguised signal sensor to detect and identify burglars through their communication device radiations. The recorded signals are transmitted to a telecommunication base, enabling law enforcement to restore safety and security. This system offers an inexpensive and effective solution with a wide range of private location applications and minimal malfunctions</p>
+                <hr class="smallline">
+
+            <a class="papertitle" href="http://www.ripublication.com/ijaer_spl/ijaerv10n48_26.pdf">Wind Sensing Windmill</a>
+             <p class="pubname">International Journal of Applied Engineering Research · Jun 1, 2015</p>
+             <p class="paperdesc">This paper presents a novel approach to increasing windmill efficiency through the use of pressure sensors and a microcontroller. By detecting wind speed and direction, the microcontroller aligns the windmill's nose cone for optimal energy generation.</p>
+                <hr class="smallline">
+        </div>
     </section>
+
+
 </div>
 
-<footer>
-    <p>&copy; 2024 Sagar Khandade. All Rights Reserved.</p>
-</footer>
+ <div id = "contact" class="footer">
+<hr>
+        <div class="footer-elements">
+          <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Use the buttons below to reach out to me!</h3>
+            <a class="btn" href="mailto:bhatmanas12@gmail.com">Contact me!</a>
+          </div>
+
+
+
+        <div class="bottom-container">
+          <a href="https://in.linkedin.com/in/manasmbhat"><img class="contacticons" src="images/linkdimg.png" alt="HTML tutorial"></a>
+          <a href="https://instagram.com/manasmb"><img class="contacticons" src="images/insta.png" alt="HTML tutorial"></a>
+          <a href="https://www.facebook.com/manasmbhat"><img class="contacticons" src="images/facebook.png" alt="HTML tutorial"></a>
+          <p>© 2023 Manas M Bhat</p>
+        </div>
+
+        </div>
+
+      </div>
+
+
+
+      </div>
+
+
 
 </body>
 </html>
