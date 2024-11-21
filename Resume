@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <p>Data Analyst | Data Scientist | Machine Learning Enthusiast</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate data professional with expertise in Python, SQL, and AWS. I specialize in data analysis, machine learning, and process optimization to drive business decisions and insights.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Cloud Analyst | Sun Sirius Technologies</h3>
+            <p><strong>Aug 2024 - Present</strong></p>
+            <p>Designed scalable data pipelines integrating AWS CloudWatch logs with OpenSearch using AWS Lambda, enabling real-time analytics and security compliance.</p>
+        </div>
+        <div class="experience">
+            <h3>Data Analyst | CrowdDoing</h3>
+            <p><strong>Feb 2024 - Present</strong></p>
+            <p>Designed database schemas and analyzed S3 data using AWS Glue and Spark, generating actionable insights for event optimization.</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Student Career Prediction Model</h3>
+            <p>Built an ML model to predict student career paths based on academic performance and behavioral attributes, improving prediction accuracy by 20%.</p>
+        </div>
+        <div class="project">
+            <h3>Grade Automation System</h3>
+            <p>Developed a Python-based grading system automating evaluation for over 200 students, saving 10+ hours weekly.</p>
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Certified Solutions Architect</li>
+            <li>Google Data Analytics Professional Certificate</li>
+            <li>Tableau Specialist</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: [your.email@example.com]</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
