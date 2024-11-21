@@ -2,38 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to Sagar Khandade's Portfolio</title>
+    <title>Welcome!</title>
+    <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
-<div class="nav-header">
+  <div class="nav-header">
     <div class="header-links">
-        <ul class="headerholder">
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#certification">CERTIFICATIONS</a></li>
-            <li><a href="#education">EDUCATION</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#about">ABOUT</a></li>
-        </ul>
+      <ul class="headerholder">
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+          <li data-menuanchor="thirdPage"><a href="#research">RESEARCH</a></li>
+          <li data-menuanchor="thirdPage"><a href="#certification">CERTIFICATIONS</a></li>
+          <li data-menuanchor="thirdPage"><a href="#education">EDUCATION</a></li>
+        <li data-menuanchor="thirdPage"><a href="#projects">PROJECTS</a></li>
+          <li data-menuanchor="secondPage"><a href="#skills">SKILLS</a></li>
+        <li data-menuanchor="secondPage"><a href="#experience">EXPERIENCE</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
     </div>
-</div>
+  </div>
+
 
 <div class="bg">
-    <section id="about">
-        <div class="aboutme">
+    <section id="about" class="aboutContent">
+
+        <div class="aboutme" data-anchor="aboutme">
             <div class="opaque-bg animated fadeInDown">
-                <p style="color:#FF6363">Hi there, I'm</p>
-                <h1 style="color:white">Sagar <span style="color:#FF6363">V</span> Khandade</h1>
-                <p class="text">Masters in Business Analytics, University of Maryland, with 4+ years of experience in Data Analytics, Machine Learning, and Process Optimization.</p>
-                <a id="submit" class="btn btn-lg" href="mailto:sagarkhandade1997@gmail.com" target="_blank">Contact me</a>
+              <p style="color:#FF6363">Hi there, I'm</p>
+              <h1 style="color:white">Sagar<span style="color:#FF6363"> V </span>Khandade</h1>
+              <div class="allelementsInabout">
+              <div class="elementsInabout">
+              <p class="emoji">
+                &#127891;
+                </p>
+                <p class="text">
+                 Masters in Business Analytics at the University of Maryland.<br></p>
+                </div>
+                <div class="elementsInabout">
+                 <p class="emoji">
+                  &#128640;
+                  </p>
+                  <p class="text">
+                    Cloud Analyst at Sun Sirius Technologies<br></p>
+                 
+                  </div>
+                  </div>
+              <a id="submit" class="btn btn-lg" href="https://topmate.io/manasmb/" target="_blank">Contact me</a>
             </div>
         </div>
     </section>
@@ -41,99 +65,201 @@
     <hr class="line">
 
     <section id="experience">
-        <div class="experience">
-            <div>
+        <div class="experience" data-anchor="projects">
+             <div>
                 <p class="sectionTitles">What do I do?</p>
-            </div>
+             </div>
 
-            <div class="work-row">
-                <div class="divWorkText">
-                    <h3 class="WorkPlaceName">Sun Sirius Technologies <p class="location">Remote, USA</p></h3>
-                    <p class="positionText">Cloud Analyst</p><p class="date">Aug 2024 - Present</p>
-                    <p class="JobDesc">Designed data pipelines in AWS that processed & parsed data from CloudWatch logs to OpenSearch using Python based Lambda & created dashboards to monitor errors, ensure security compliance, and track user login activities and system events</p>
-                    <p class="JobDesc">Utilized SQL to extract insights from RDS databases, preparing data visualizations in Quicksight, which automated report generation and improved decision-making efficiency by 25%</p>
+                        <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/sun_logo.png" alt="">
                 </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Sun Sirius<p class="location">Remote, United States</p></h3>
+
+                     <p class="positionText">Cloud Analyst</p><p class="date">August 2024 - Present</p>
+                     <p class="JobDesc">
+                      Designed data pipelines in AWS that processed & parsed data from CloudWatch logs to OpenSearch using Python based Lambda & created dashboards to monitor errors, ensure security compliance, and track user login activities and system events</p>
+                      <p class="JobDesc">
+                      Utilized SQL to extract insights from RDS databases, preparing data visualizations in Quicksight, which automated report generation and improved decision-making efficiency by 25%</p>
+                     
+                 </div>
             </div>
 
             <hr class="blueline">
 
             <div class="work-row">
-                <div class="divWorkText">
-                    <h3 class="WorkPlaceName">CrowdDoing <p class="location">Remote, USA</p></h3>
-                    <p class="positionText">Data Analyst</p><p class="date">Feb 2024 - Present</p>
-                    <p class="JobDesc">Designed database schemas using ER models to organize incoming application and google forms data from Excel sheets efficiently</p>
-                    <p class="JobDesc">Managed datasets with 250k records using AWS S3, Glue, Athena & Spark, utilized dbt for data transformation, accelerating data retrieval & enabling predictive analytics for identifying trends & insights to organize future events</p>
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/cwowd.jpeg" alt="">
                 </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">CrowdDoing <p class="location">Remote, United States</p></h3>
+
+                     <p class="positionText">Data Analyst</p><p class="date">February 2023 - Present</p>
+<p class="JobDesc">
+                      Designed database schemas using ER models to organize incoming application and google forms data from Excel sheets efficiently</p>
+                     <p class="JobDesc">
+                      Managed datasets with 250k records using AWS S3, Glue, Athena & Spark, utilized dbt for data transformation, accelerating data retrieval & enabling predictive analytics for identifying trends & insights to organize future events </p>
+                     
+                 </div>
             </div>
+            
 
             <hr class="blueline">
 
             <div class="work-row">
-                <div class="divWorkText">
-                    <h3 class="WorkPlaceName">University of Maryland <p class="location">College Park, MD</p></h3>
-                    <p class="positionText">Graduate Assistant</p><p class="date">Aug 2022 - Dec 2023</p>
-                    <p class="JobDesc">Processed student activity data from Excel sheets using Pyspark & automated grading tasks saving 80% manual work</p>
-                    <p class="JobDesc">Developed grade prediction model using Random Forest model in Python, achieving RMSE of 2.3 through hyperparameter tuning</p>
-                    <p class="JobDesc">Implemented career prediction model with XGBoost, classifying career paths based on students' performance metrics & skills</p>
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/smith_logo.jpeg" alt="">
                 </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Robert H. Smith School of Business <p class="location">College Park, MD, United States</p></h3>
+
+                     <p class="positionText">Graduate Assistant</p><p class="date">August 2022 - December 2023</p>
+<p class="JobDesc">
+                      Processed student activity data from Excel sheets using Pyspark & automated grading tasks saving 80% manual work</p>
+                     <p class="JobDesc">
+                      Developed grade prediction model using Random Forest model in Python, achieving RMSE of 2.3 through hyperparameter tuning </p>
+                     <p class="JobDesc">
+                      Implemented career prediction model with XGBoost, classifying career paths based on students' performance metrics & skills</p>
+                     
+                 </div>
             </div>
+
+             
 
             <hr class="blueline">
 
-            <div class="work-row">
-                <div class="divWorkText">
-                    <h3 class="WorkPlaceName">Freddie Mac <p class="location">McLean, VA</p></h3>
-                    <p class="positionText">Quantitative Analytics Intern</p><p class="date">Aug 2023 - Dec 2023</p>
-                    <p class="JobDesc">Built SARIMAX models to forecast housing price indexes, improving accuracy by 20%.</p>
-                    <p class="JobDesc">Presented key findings to stakeholders, supporting budget allocations and investment strategies.</p>
+           
+
+             <div class="work-row">
+                <div class="divWorkImg">
+                    <img class="workimg" src="images/Citi.png" alt="">
                 </div>
+
+                 <div class="divWorkText">
+                     <h3 class="WorkPlaceName">Citi <p class="location">Chennai, India</p></h3>
+                     <p class="positionText">Senior Data Analyst</p> <p class="date">August 2019 - May 2022</p>
+                     <p class="JobDesc">
+                      Resolved high-severity production issues by conducting RCA, analyzing databases with 10M records, & tracking ETL workflows </p>
+                     <p class="JobDesc">
+                     Collaborated with stakeholders to define KPIs, set performance metrics, & ensure timely deliveries within agile scrum environments</p>
+                        <p class="JobDesc">
+                     Identified customer loan eligibility through feature selection & Random Forest modeling, improving decision-making by 20%</p>
+                        <p class="JobDesc">
+                      Used Ab Initio to process & transform large volumes of transactional data for regulatory reporting, ensuring accuracy & compliance </p>
+                     <p class="JobDesc">
+                      Migrated banking processes from GIW to AWS, building data pipelines & schemas & developed methods for efficient data analysis </p>
+                     <p class="JobDesc">
+                      Optimized SQL triggers & stored procedures to automate data validation, ensure data integrity & support ETL processes </p>
+                     <p class="JobDesc">
+                      Developed Tableau dashboards for analyzing regional banking processes, customer volumes & providing recommendations </p>
+                     <p class="JobDesc">
+                      Presented & documented reports on RCA, bug fixes & performance metrics to clients, effectively communicating their impact </p>
+
+                     
+<!--                      <p class="JobDesc">
+                      Data Maestro 📊: Specializing in crafting complex SQL reports, I generated data-driven recommendations, reducing revenue leakage by $3.2 million through meticulous data analysis.</p>
+                      <p class="JobDescpt">
+                      Python Pathfinder 🐍: With Python, I've created applications for analyzing spending patterns among 12 million customers, enabling data-driven insights.</p>
+                      <p class="JobDescpt">
+                      Visual Storyteller 📈: I designed dynamic Tableau dashboards, collaborating to boost marketing efficiency by 28% through real-time data visualization.</p>
+                      <p class="JobDescpt">
+                      Metrics Leader 🚀: Overseeing financial metrics and global product launches, I delivered data-driven insights and drive strategic decision-making.</p>
+                      <p class="JobDescpt">
+                      Innovative Mindset 💡: I innovate with interactive dashboards, earning the 'ACE award,' and imparting knowledge for growth.</p>
+                      <p class="JobDescpt">
+                      Quick Learning Champion 🌱: I swiftly grasp new concepts, excel in data cleaning, analysis, and collaborative projects, staying ahead in the evolving data landscape.</p>
+                      <p class="JobDescpt">
+                      Versatility & Team Spirit 🤝: Adapting roles seamlessly, I navigate diverse projects with expertise in data analytics techniques and their practical applications.</p>
+                      <p class="JobDescpt">
+                      Client-Centric Dynamo 👥: I build strong client relationships, consistently delivering beyond project requirements to foster lasting partnerships.
+                     </p> -->
+                 </div>
             </div>
 
-            <hr class="blueline">
+        
 
-            <div class="work-row">
-                <div class="divWorkText">
-                    <h3 class="WorkPlaceName">Citi <p class="location">Hyderabad, India</p></h3>
-                    <p class="positionText">Senior Data Analyst</p><p class="date">Aug 2019 - May 2022</p>
-                    <p class="JobDesc">Resolved high-severity production issues by conducting RCA, analyzing databases with 10M records, & tracking ETL workflows</p>
-                    <p class="JobDesc">Collaborated with stakeholders to define KPIs, set performance metrics, & ensure timely deliveries within agile scrum environments</p>
-                    <p class="JobDesc">Identified customer loan eligibility through feature selection & Random Forest modeling, improving decision-making by 20%</p>
-                    <p class="JobDesc">Used Ab Initio to process & transform large volumes of transactional data for regulatory reporting, ensuring accuracy & compliance</p>
-                    <p class="JobDesc">Migrated banking processes from GIW to AWS, building data pipelines & schemas & developed methods for efficient data analysis</p>
-                    <p class="JobDesc">Optimized SQL triggers & stored procedures to automate data validation, ensure data integrity & support ETL processes</p>
-                    <p class="JobDesc">Developed Tableau dashboards for analyzing regional banking processes, customer volumes & providing recommendations</p>
-                    <p class="JobDesc">Presented & documented reports on RCA, bug fixes & performance metrics to clients, effectively communicating their impact</p>
-                </div>
-            </div>
+
+
         </div>
     </section>
 
     <hr class="line">
 
     <section id="skills">
-        <div class="skills">
-            <div>
+        <div class="skills" data-anchor="projects">
+             <div>
                 <p class="sectionTitles">My Skills</p>
-            </div>
-            <p><strong>Programming Languages:</strong> SQL, Python, R, C++</p>
-            <p><strong>Platforms:</strong> AWS (Glue, Lambda, Athena, S3), Azure</p>
-            <p><strong>Tools:</strong> Tableau, JIRA, MySQL</p>
-            <p><strong>ML Techniques:</strong> Clustering, Regression, Classification, Time Series Forecasting</p>
+             </div>
+
+            <h3 class="sectionSubHeadings">Languages:</h3>
+
+            <i class="devicon-c-plain icon"></i>
+            <i class="devicon-java-plain-wordmark icon"></i>
+            <i class="icon devicon-python-plain-wordmark" ></i>
+            <i class="icon devicon-r-original" ></i>
+            <i class="icon devicon-css3-plain-wordmark" ></i>
+            <i class="icon devicon-html5-plain-wordmark" ></i>
+            <i class="icon devicon-javascript-plain" ></i>
+
+            <h3 class="sectionSubHeadings">Tools:</h3>
+
+            <i class="icon devicon-rstudio-plain"></i>
+            <i class="icon devicon-androidstudio-plain"></i>
+            <i class="icon devicon-microsoftsqlserver-plain-wordmark" ></i>
+            <i class="icon devicon-pycharm-plain-wordmark" ></i>
+            <i class="icon devicon-firebase-plain" ></i>
+            <i class="icon devicon-github-original-wordmark" ></i>
+            <i class="icon devicon-jupyter-plain-wordmark" ></i>
+
+            <h3 class="sectionSubHeadings">Frameworks:</h3>
+
+            <i class="devicon-numpy-original-wordmark icon"></i>
+            <i class="devicon-pandas-original-wordmark icon"></i>
+            <i class="icon devicon-flask-plain-wordmark" ></i>
+            <i class="icon devicon-flask-bootstrap-plain" ></i>
+
+
         </div>
     </section>
 
     <hr class="line">
 
     <section id="projects">
-        <div class="projects">
-            <div>
+        <div class="projects" data-anchor="projects">
+             <div>
                 <p class="sectionTitles">Projects</p>
-            </div>
-            <p><strong>Student Career Prediction:</strong> Built an ML model using Random Forest and XGBoost to predict career paths based on student performance metrics.</p>
-        </div>
-    </section>
+             </div>
 
-    <hr class="line">
+            <div class="skill-row">
+
+              <h3 class="skilltitle">Exploratory and Predictive Analysis: AirBnb</h3>
+          
+
+              <p class="JobDescpt"> 🔍 
+              Embarking on this journey required commanding tools such as R, honing skills in data cleansing, preprocessing, and conducting meticulous exploratory analysis. Within the dataset's labyrinthine intricacies—spanning 100,000 listings and encompassing 58 intricate feature variables—lay concealed insights and invaluable knowledge. This was no ordinary cleanup; it was a technical triumph. 🧹</p>
+              
+              <p class="JobDescpt"> 🤖 
+              The heart of this expedition lay in the realm of predictive modeling. Through the meticulous application of regression, Random Forest, Neural Networks, Support Vector Machines, and XGBoost, an arsenal of sophisticated models emerged. These models embarked on a mission to predict the unpredictable, employing advanced algorithms to unravel the dataset's complexities. 🤯</p>
+              
+              <p class="JobDescpt"> 🚀 
+              The journey encountered its share of challenges—each parameter adjustment in the pursuit of model optimization was a strategic move in a cerebral chess game. Yet, persistence, a knack for experimentation, and a touch of wizardry resulted in a remarkable achievement. Securing 3rd place with an astounding accuracy rate of 77% was an affirmation of technical prowess and dedication. 🏆</p>
+              
+              <p class="JobDescpt">  🌟 This exploration through data mining and prediction is a testament to unwavering commitment, a deep-seated passion for technical excellence, and the unyielding quest to unveil the hidden gems within Airbnb's data vault. Join us in this riveting journey through data, discovery, and technical mastery by accessing the report below! 🌟</p>
+              
+              
+              </p>
+              <p>
+                Read the report here: <em><a href="Project_Report.pdf">Tap here</a></em>
+              </p>    
+          <p>
+            Link to the project: <em><a href="https://github.com/parika-rawat/Airbnb-Data-Prediction">Tap here</a></em>
+          </p>
+          
+         <hr class="line">
 
     <section id="education">
         <div class="education">
@@ -168,7 +294,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Sagar V Khandade. All Rights Reserved.</p>
+        <p>© 2024 Sagar M Khandade. All Rights Reserved.</p>
     </footer>
 
 </div>
